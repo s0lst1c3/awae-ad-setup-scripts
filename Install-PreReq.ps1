@@ -1,7 +1,7 @@
 # set ipv4 options
 $ipaddress = "10.10.10.254"
 $ipprefix = "24"
-$ipgw = "10.10.10.2"
+$ipgw = "10.10.10.4"
 $ipdns = "8.8.8.8"
 $ipif = (Get-NetAdapter).ifIndex 
 New-NetIPAddress -IPAddress $ipaddress -PrefixLength $ipprefix -InterfaceIndex $ipif -DefaultGateway $ipgw
