@@ -5,7 +5,7 @@ $DHCPServerIP="10.10.10.254"
 $StartRange="10.10.10.100"
 $EndRange="10.10.10.199"
 $Subnet="255.255.255.0"
-$Router="10.10.10.2"
+$Router="10.10.10.4"
  
 # mojo 
 Install-WindowsFeature -Name 'DHCP' –IncludeManagementTools
